@@ -45,8 +45,6 @@ export BILKY=$PROY/bilky
 export CAPA=$PROY/capacitacion
 export VM=$PROY/virtual-machines
 
-export PATH=/Users/mfloresruiz/.composer/vendor/bin:$PATH
-
 #GOTO  mfr
 ###########
 alias to.personal='cd $MEGA/mfr-personal/'
