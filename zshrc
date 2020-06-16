@@ -3,7 +3,7 @@
 ##############################################################################
 
 # Path to your oh-my-zsh configuration.
-export ZSH=$HOME/.dotfiles/oh-my-zsh
+export ZSH=$HOME/.dotfiles/ohmyzsh
 
 # Set name of the theme to load.
 # Look in $ZSH/themes/

@@ -32,3 +32,9 @@
 [submodule "emacs.d/themes/color-theme-sanityinc-tomorrow"]
 	path = emacs.d/themes/color-theme-sanityinc-tomorrow
 	url = git@github.com:purcell/color-theme-sanityinc-tomorrow.git
+[submodule "ohmyzsh"]
+	path = ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh
+[submodule "z"]
+	path = z
+	url = https://github.com/rupa/z

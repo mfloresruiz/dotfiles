@@ -17,7 +17,7 @@ setopt    incappendhistory  #Immediately append to the history file, not just wh
 ##############################################################################
 # rupa/z setup (path frecency with tab completion)
 ##############################################################################
-source ~/.dotfiles/z-rupa/z.sh
+source ~/.dotfiles/z/z.sh
 
 
 # Setting PATH for Python 3.7
