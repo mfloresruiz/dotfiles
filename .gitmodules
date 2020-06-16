@@ -4,13 +4,6 @@
 [submodule "z-zsh"]
 	path = z-zsh
 	url = https://github.com/sjl/z-zsh.git
-[submodule "oh-my-zsh"]
-	path = oh-my-zsh
-	url = https://github.com/robbyrussell/oh-my-zsh.git
-[submodule "z-rupa"]
-	path = z-rupa
-	url = https://github.com/rupa/z
-
 [submodule "vim-fugitive"]
     path = vim/bundle/vim-fugitive
     url = git://github.com/tpope/vim-fugitive.git
