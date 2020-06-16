@@ -71,9 +71,7 @@ alias move='mv -i'
 alias c='clear'
 alias musica-quizz='clear; java -jar $PROY/intervalos_musicales/proy/target/intervalos_musicales-1-jar-with-dependencies.jar;'
 
-# PhpStorm
-alias backup.PhpStormSettings='cp -r ~/Library/Preferences/WebIde90 $MFR/plugins-preferences-softwares/phpstorm/'
-alias restore.PhpStormSettings='cp -r $MFR/plugins-preferences-softwares/phpstorm/WebIde90 ~/Library/Preferences/'
+## Tools
 alias decrypt="java -jar ~/Documents/tools/cipher.jar  462D4A614E645267556B587032733576 --decrypt"
 
 ##############################################################################
