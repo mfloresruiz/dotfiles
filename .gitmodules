@@ -29,3 +29,6 @@
 [submodule "vim-surround"]
     path = vim/bundle/vim-surround
     url = git://github.com/tpope/vim-surround.git
+[submodule "emacs.d/themes/color-theme-sanityinc-tomorrow"]
+	path = emacs.d/themes/color-theme-sanityinc-tomorrow
+	url = git@github.com:purcell/color-theme-sanityinc-tomorrow.git

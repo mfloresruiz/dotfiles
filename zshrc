@@ -38,24 +38,20 @@ source $ZSH/oh-my-zsh.sh
 ####################
 # Environment mfr
 ####################
-export MEGA=$HOME/MFR
-export PROY=$MEGA/proyectos
-export DEHO=$PROY/dehonline
-export BILKY=$PROY/bilky
-export CAPA=$PROY/capacitacion
-export VM=$PROY/virtual-machines
+export MFR=$HOME/MFR
+export PER=$MFR/mfr-personal
+export EST=$PER/estudios
+export GIT=$HOME/Documents/git
+export PRO=$MFR/proyectos
+export DEHO=$PRO/dehonline
 
 #GOTO  mfr
 ###########
-alias to.personal='cd $MEGA/mfr-personal/'
-alias to.proyectos='cd $PROY/'
-alias to.dehonline='cd $HOME/Documents/dehonline-desarrollo'
-alias to.git='cd $HOME/Documents/git'
+alias to.personal='cd $PER'
+alias to.estudios='cd $EST'
+alias to.proyectos='cd $PRO/'
+alias to.git='cd $GIT'
 alias to.home='cd $HOME'
-alias to.bilky='cd $PROY/bilky/'
-alias to.trading='cd $HOME/Documents/trading-desarrollo'
-alias to.capacitacion='cd $CAPA/'
-alias to.certibox='cd $HOME/Documents/certibox-desarrollo'
 
 # Git alias
 alias ga='git add '
@@ -76,8 +72,8 @@ alias c='clear'
 alias musica-quizz='clear; java -jar $PROY/intervalos_musicales/proy/target/intervalos_musicales-1-jar-with-dependencies.jar;'
 
 # PhpStorm
-alias backup.PhpStormSettings='cp -r ~/Library/Preferences/WebIde90 $MEGA/plugins-preferences-softwares/phpstorm/'
-alias restore.PhpStormSettings='cp -r $MEGA/plugins-preferences-softwares/phpstorm/WebIde90 ~/Library/Preferences/'
+alias backup.PhpStormSettings='cp -r ~/Library/Preferences/WebIde90 $MFR/plugins-preferences-softwares/phpstorm/'
+alias restore.PhpStormSettings='cp -r $MFR/plugins-preferences-softwares/phpstorm/WebIde90 ~/Library/Preferences/'
 alias decrypt="java -jar ~/Documents/tools/cipher.jar  462D4A614E645267556B587032733576 --decrypt"
 
 ##############################################################################

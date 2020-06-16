@@ -1,0 +1,18 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '(("bing.com"
+  [url-cookie "_EDGE_V" "1" "Fri, 11-Jun-2021 10:54:07 GMT" "/" "bing.com" nil])
+ ("www.dehonline.es"
+  [url-cookie "svSession" "1d8daf9762d53af7b35544c7867e811f884bc58b0c82b190cebdea55ab61c9b52d7d4cde332df70d4a3901262f079f001e60994d53964e647acf431e4f798bcd602eb85e02c3e80981173bc91b95b771eb9fbb1369024b60d62ff731e2ed9318" "Mon May 16 19:10:09 2022 GMT" "/" "www.dehonline.es" nil]))
+)
+(setq url-cookie-secure-storage
+ '(("bing.com"
+  [url-cookie "MUID" "1A83792D670C6C111B6277E066BB6DB8" "Fri, 11-Jun-2021 10:54:07 GMT" "/" "bing.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
