@@ -79,3 +79,4 @@ alias decrypt="java -jar ~/Documents/tools/cipher.jar  462D4A614E645267556B58703
 ##############################################################################
 #source /opt/boxen/env.sh
 
+##eval "$(starship init zsh)"
